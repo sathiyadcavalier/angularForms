@@ -6,12 +6,7 @@ import { FormControl } from '@angular/forms';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  template: `
-    Favorite Color: <input type="text" [formControl]="favoriteColorControl">
-  `
 })
 export class AppComponent {
   title = 'myforms';
-
-  favoriteColorControl = new FormControl('');
 }
